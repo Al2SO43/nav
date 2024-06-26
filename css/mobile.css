@@ -261,31 +261,3 @@
         margin: 80px auto 14px !important;
     }
 }
-
-/*悬浮窗*/
-@media screen and (max-width: 768px) {
-
-    /*.wapnone{
-    display:none; 
-    }*/
-    .fk_service_ax,
-    .fk_service_dh,
-    .fk_service_jk {
-        display: none;
-    }
-
-    .fk_service {
-        top: 84% !important;
-        right: 2% !important;
-    }
-
-    #fk-span {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 991px) {
-    .row {
-        margin-right: 12px !important;
-    }
-}

@@ -887,7 +887,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #484848;
 }
-
 /*页脚*/
 footer.main-footer {
     text-align: center;
@@ -1014,3 +1013,26 @@ pre {
         margin-top: 30px
     }
 } 
+
+/*公告*/
+#bulletin_box {
+    margin-bottom: 40px;
+    padding: 5px 10px;
+    background: #ffffff;
+    border-radius: 4px;
+    height: auto;
+    overflow: visible;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.bulletin-ul {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    margin: 2px;
+    padding-left: 10px;
+}
